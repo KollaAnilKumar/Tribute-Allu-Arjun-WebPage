@@ -262,6 +262,10 @@ html {
         right: 15px;
         font-size: 2.5rem;
     }
+    .logo img{
+    border-radius: 50px;
+    margin-top: 20px;
+}
 
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
         transform: translateX(0);
@@ -285,4 +289,9 @@ html {
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+        .logo img{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+    
 }
