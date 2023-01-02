@@ -170,6 +170,9 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
   }
+tr > * + * {
+  padding-left: 4em;
+}
   
 
 @media (max-width: 768px){
@@ -285,6 +288,20 @@ html {
 
 }
 
+@media (max-width: 800px){
+    .navbar-container input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    }
+        .logo img{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+    tr > * + * {
+  padding-left: 4em;
+}
+    
+}
+
 @media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
@@ -293,5 +310,9 @@ html {
     border-radius: 50px;
     margin-top: 20px;
 }
+    tr > * + * {
+  padding-left: 4em;
+}
     
 }
+
